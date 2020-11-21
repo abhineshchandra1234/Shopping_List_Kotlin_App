@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="Add a new shopping item"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,6 +48,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="CANCEL"
+        android:textColorHint="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/tvAdd"
         app:layout_constraintTop_toBottomOf="@+id/etAmount" />
@@ -57,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="ADD"
+        android:textColorHint="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAmount" />
